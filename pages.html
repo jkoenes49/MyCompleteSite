@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home Page</title>
+    <link rel="stylesheet" href="/pages.css" />
+    <body>
+      <nav>
+        <a href="/index.html"> Home </a>
+        <a href="./menu.html"> Menu </a>
+        <a href="./services.html"> Services </a>
+        <a href="./contact.html"> Contact Us </a>
+      </nav>
+      <div class="column-layout">
+        <div class="main-column">
+          <img
+            src="https://cdn.glitch.me/8664b6e8-ce83-4585-b5d3-8cf9ba2ed154%2FS.png?v=1638379069452"
+            style="float:right;width:100px;height:100px;"
+          />
+          <h2>Steak du Maison</h2>
+          <p>
+            Welcome to Steak du Maison. We hope you enjoy our many dining
+            options along with a glass of wine from our historic, 18th-century
+            wine cellar. With beautiful views of the St. Lawrence Seaway and
+            located in historic old town Quebec City, Steak du Maison is the
+            premier dining destination.
+          </p>
+          <div class="sidebar-two">
+            <h3>Steak du Maison</h3>
+            <p>
+              Bienvenue au Steak du Maison. Nous espérons que vous apprécierez
+              nos nombreuses options de restauration avec un verre de vin de
+              notre cave à vin historique du XVIIIe siècle. Avec une vue
+              magnifique sur la Voie maritime du Saint-Laurent et situé dans la
+              vieille ville historique de Québec, Steak du Maison est la
+              première destination gastronomique.
+            </p>
+            <div id="specialoffers" class="call-outs-container">
+              <div class="call-out">
+                <h4>Special</h4>
+                <p>
+                  Come in any time from now until Christmas Eve to receive 10%
+                  of your meal with any gift purchase of a bottle of wine
+                  <br />
+                  <button>
+                    <a href="./menu.html"> Learn More </a>
+                  </button>
+                </p>
+              </div>
+
+              <div class="call-out">
+                <h4>Speciale</h4>
+                <p>
+                  Venez à tout moment jusqu'au réveillon de Noël pour recevoir
+                  10% de votre repas avec tout achat cadeau d'une bouteille de
+                  vin
+                  <br />
+                  <button>
+                    <a href="./menu.html"> Apprendre Encore </a>
+                  </button>
+                </p>
+              </div>
+              <div style="text-align: center" ;style="float-center" ;>
+                <button id="hidebutton" onclick="hideAds()">Hide Offers</button>
+              </div>
+
+              <script>
+                function hideAds() {
+                  var x = document.getElementById("specialoffers");
+                  var y = document.getElementById("hidebutton");
+                  x.style.display = "none";
+                  y.style.display = "none";
+                }
+              </script>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+  </head>
+</html>

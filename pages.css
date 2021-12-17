@@ -1,0 +1,86 @@
+/* Styles go here */
+* {
+  box-sizing: border-box;
+}
+
+body {
+background-color: darkred; 
+  font-family: Garamond,serif
+}
+
+h2,
+h3, 
+h4 {
+margin: 0 0 -.7em 0;  
+}
+  
+.column-layout {
+  background-color: white;
+  max-width: 800px;
+  margin: 40px auto 0 auto;
+  padding: 20px 40px;
+  line-height: 1.65;
+  display: flex;
+  
+  
+}
+
+.main-column {
+  float:left;
+  order: 2;
+  flex: 1;
+}
+
+.sidebar-two {
+  order: 2;
+  Flex: ;2
+}
+
+.call-outs-container {
+  text-color: white;
+  max-width: 800px;
+  margin: 40px auto 0 auto;
+  display: flex;
+    justify-content: space-between;
+}
+
+.call-out {
+    text-color: white;
+  padding: 20px;
+  width: 30%;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.call-out:nth-child(1) {
+    text-color: white;
+  background-color: silver;
+}
+.call-out:nth-child(2) {
+  background-color: silver;
+}
+.call-out:nth-child(3) {
+background-color: green;
+}
+a:link, a:visited {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  padding: 14px 50px;
+    text-align: center;
+  display: inline-block;
+}
+
+a:hover {
+  background-color: silver;
+}
+
+a:active {
+  background-color: black;
+}
+.form {
+  padding: 50px;
+  font: bold;
+}
+
+
